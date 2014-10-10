@@ -63,7 +63,7 @@ public class Picture
         campo.changeSize(1000);
         campo.makeVisible();
         
-        
+       
     }
 
     /**
@@ -93,4 +93,8 @@ public class Picture
             sun.changeColor("yellow");
         }
     }
+public void slowMove()
+{
+    sun.slowMoveVertical(130);
+}
 }

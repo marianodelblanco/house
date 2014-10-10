@@ -56,8 +56,6 @@ public class Picture
         sun.changeSize(80);
         sun.makeVisible();
         
-       
-        
         campo = new Circle();
         campo.changeColor("green");
         campo.moveHorizontal(-500);
@@ -65,7 +63,7 @@ public class Picture
         campo.changeSize(1000);
         campo.makeVisible();
         
-        sun.slowMoveVertical(130);
+        
     }
 
     /**

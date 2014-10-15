@@ -99,5 +99,6 @@ public void moveSun()
     campo.changeColor("black");
     wall.changeColor("black");
     roof.changeColor("black");
+    window.changeColor("white");
 }
 }
